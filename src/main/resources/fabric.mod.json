@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "inventory-randomizer",
+  "version": "${version}",
+  "name": "Inventory Randomizer",
+  "description": "",
+  "authors": [
+    "mooziii"
+  ],
+  "contact": {
+    "sources": "https://github.com/mooziii/inventory-randomizer",
+    "issues": "https://github.com/mooziii/inventory-randomizer/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.hglabor.inventoryrandomizer.InventoryRandomizer"
+    ]
+  },
+  "mixins": [
+    "inventory-randomizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
